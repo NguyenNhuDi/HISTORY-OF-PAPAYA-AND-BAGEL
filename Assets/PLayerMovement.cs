@@ -18,9 +18,12 @@ public class PLayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+
+        float dirX = Input.GetAxisRaw("Horizontal");
+        rb.velocity = new Vector2(dirX *3, rb.velocity.y);
         
         if (Input.GetButtonDown("Jump")){
-            rb.velocity = new Vector2(rb.velocity.x, 15);
+            rb.velocity = new Vector2(rb.velocity.x, 3);
         }
 
 
