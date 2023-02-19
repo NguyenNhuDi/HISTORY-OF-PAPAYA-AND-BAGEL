@@ -26,7 +26,7 @@ public class MoveCamera : MonoBehaviour
         setYQuad(rb.position.y);
 
         if(rb.position.y <= -10){
-            rb.position = new Vector3(-16,-7,0);
+            rb.position = new Vector3(-13.33f,-3.43f,0);
         }
 
 
@@ -37,7 +37,7 @@ public class MoveCamera : MonoBehaviour
             cam.position = new Vector3(47f,cam.position.y,-10);
             return;
         }
-        else if(x > 63f && x <= 100f){
+        else if(x > 63f && x <= 110f){
             cam.position = new Vector3(86f,cam.position.y,-10);
             return;
         }
