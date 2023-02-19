@@ -152,7 +152,7 @@ MonoBehaviour:
   jumpableGround:
     serializedVersion: 2
     m_Bits: 128
-  jumpForce: 16
+  jumpForce: 20
   moveForce: 8
 --- !u!95 &2942318317486291991
 Animator:
