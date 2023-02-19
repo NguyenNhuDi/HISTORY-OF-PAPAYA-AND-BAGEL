@@ -26,7 +26,7 @@ public class PLayerMovement : MonoBehaviour
         rb.velocity = new Vector2(dirX *3, rb.velocity.y);
         
         if (Input.GetButtonDown("Jump") && (IsGrounded() || StickyLeft() || StickyRight())){
-            rb.velocity = new Vector2(rb.velocity.x, 8f);
+            rb.velocity = new Vector2(rb.velocity.x, 6f);
         }
 
 
