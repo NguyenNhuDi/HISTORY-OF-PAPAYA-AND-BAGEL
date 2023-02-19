@@ -15,7 +15,7 @@ TagManager:
   - StickyWall
   - Ground
   - Block
-  - 
+  - BG
   - 
   - 
   - 
@@ -39,11 +39,11 @@ TagManager:
   - 
   - 
   m_SortingLayers:
-  - name: Default
-    uniqueID: 0
-    locked: 0
   - name: Background
     uniqueID: 2424645997
+    locked: 0
+  - name: Default
+    uniqueID: 0
     locked: 0
   - name: Fire Blocks
     uniqueID: 3596236543
