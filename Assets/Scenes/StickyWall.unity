@@ -137,7 +137,7 @@ GameObject:
   - component: {fileID: 1294984953}
   - component: {fileID: 1294984952}
   - component: {fileID: 1294984951}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: StickyWall
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -203,8 +203,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1294984947}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 2.2739, y: 2.643, z: 0}
-  m_LocalScale: {x: 0.5212436, y: 1.2821, z: 1}
+  m_LocalPosition: {x: 2.282, y: 2.9985, z: 0}
+  m_LocalScale: {x: 0.53745425, y: 1.9930764, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
@@ -241,20 +241,20 @@ CompositeCollider2D:
   m_ColliderPaths:
   - m_Collider: {fileID: 1294984953}
     m_ColliderPaths:
-    - - X: 2605924
-        Y: -6191300
-      - X: 2605924
-        Y: 6410500
-      - X: -2606217
-        Y: 6410207
-      - X: -2605924
-        Y: -6191300
+    - - X: 2686978
+        Y: -9624628
+      - X: 2686978
+        Y: 9965382
+      - X: -2687271
+        Y: 9965089
+      - X: -2686978
+        Y: -9624628
   m_CompositePaths:
     m_Paths:
-    - - {x: 0.2605631, y: -0.61913}
-      - {x: 0.2605631, y: 0.64105}
-      - {x: -0.2606217, y: 0.6409914}
-      - {x: -0.2605631, y: -0.61913}
+    - - {x: 0.2686685, y: -0.9624628}
+      - {x: 0.2686685, y: 0.9965382}
+      - {x: -0.2687271, y: 0.99647963}
+      - {x: -0.2686685, y: -0.9624628}
   m_VertexDistance: 0.0005
   m_OffsetDistance: 0.00005
 --- !u!50 &1294984952
