@@ -37,7 +37,7 @@ public class MoveCamera : MonoBehaviour
             cam.position = new Vector3(47f,cam.position.y,-10);
             return;
         }
-        else if(x > 63f && x <= 100f){
+        else if(x > 63f && x <= 110f){
             cam.position = new Vector3(86f,cam.position.y,-10);
             return;
         }
