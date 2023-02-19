@@ -14,6 +14,9 @@ public class PLayerMovement : MonoBehaviour
     // field to pick
     [SerializeField] private LayerMask block;
     [SerializeField] private LayerMask jumpableGround;
+    [SerializeField] private float jumpForce;
+    [SerializeField] private float moveForce;
+
     
     private enum MovState {idle, running, jumping, falling, walljump};
     
@@ -35,11 +38,11 @@ public class PLayerMovement : MonoBehaviour
         dirX = Input.GetAxisRaw("Horizontal");
 
         if(dirX != 0){
-            rb.velocity = new Vector2(dirX *6, rb.velocity.y);
+            rb.velocity = new Vector2(dirX *moveForce, rb.velocity.y);
         }
         
         if (Input.GetButtonDown("Jump") && (IsGrounded() || StickyLeft() || StickyRight())){
-            rb.velocity = new Vector2(rb.velocity.x, 16f);
+            rb.velocity = new Vector2(rb.velocity.x, jumpForce);
         }
 
         UpdateAnimationState();
