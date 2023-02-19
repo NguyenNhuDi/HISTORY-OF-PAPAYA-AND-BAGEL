@@ -42,3 +42,12 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: Background
+    uniqueID: 2424645997
+    locked: 0
+  - name: Fire Blocks
+    uniqueID: 3596236543
+    locked: 0
+  - name: Blocks
+    uniqueID: 3283813977
+    locked: 0
