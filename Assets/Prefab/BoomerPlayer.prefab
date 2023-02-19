@@ -153,7 +153,7 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 128
   jumpForce: 16
-  moveForce: 6
+  moveForce: 5
 --- !u!95 &6204987703722358291
 Animator:
   serializedVersion: 3
