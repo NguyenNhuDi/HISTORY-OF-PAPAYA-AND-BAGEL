@@ -32,4 +32,19 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/TeenFallScene.unity
     guid: 634f147ccbd4a8e4b911e44901d9437f
+  - enabled: 1
+    path: Assets/Scenes/TeenWinterScene.unity
+    guid: c0819f81d37c2f84e8f6754132d4f63b
+  - enabled: 1
+    path: Assets/Scenes/BoomerSpringScene.unity
+    guid: 0f7201e13d39071449aa8adc0d128281
+  - enabled: 1
+    path: Assets/Scenes/BoomerSummerScene.unity
+    guid: e248f5937ec77ef4f879e07d51f3af52
+  - enabled: 1
+    path: Assets/Scenes/BoomerFallScene.unity
+    guid: cb704aff0b863a74d93cff088492f288
+  - enabled: 1
+    path: Assets/Scenes/BoomerWinterScene.unity
+    guid: 9dd7c8de8e02ae6438e1a02b44940458
   m_configObjects: {}
