@@ -11,7 +11,7 @@ public class Finish : MonoBehaviour
         
     }
 
-    private void onTriggerEnter2D(Collider2D collision) {
+    public void onTriggerEnter2D(Collider2D collision) {
         Debug.Log("Change Scene");
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
