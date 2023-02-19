@@ -24,10 +24,15 @@ public class FallingBlocks : MonoBehaviour
     }
 
     private IEnumerator reset(){
-        yield return new WaitForSeconds(ResetDelay);
+        Debug.Log(originalPos);
+        Debug.Log("STARTED RESET");
 
+        yield return new WaitForSeconds(ResetDelay);
+        rb.bodyType = RigidbodyType2D.Static;
+        rb.position = new Vector3(originalPos.x,originalPos.y,originalPos.z);
+
+        
         rb.bodyType = RigidbodyType2D.Kinematic;
-        rb.position = originalPos;
 
     }
 
