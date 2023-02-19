@@ -1,7 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.
+using UnityEngine.SceneManagement;
 
 public class Finish : MonoBehaviour
 {
@@ -9,6 +9,11 @@ public class Finish : MonoBehaviour
     void Start()
     {
         
+    }
+
+    private void onTriggerEnter2D(Collider2D collision) {
+        Debug.Log("Change Scene");
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
 
