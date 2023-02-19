@@ -11313,22 +11313,6 @@ CompositeCollider2D:
         Y: 179999900
       - X: 440000041
         Y: 179999900
-    - - X: 690000100
-        Y: 179999959
-      - X: 690000100
-        Y: 200000041
-      - X: 690000041
-        Y: 200000100
-      - X: 669999959
-        Y: 200000100
-      - X: 669999900
-        Y: 200000041
-      - X: 669999900
-        Y: 179999959
-      - X: 669999959
-        Y: 179999900
-      - X: 690000041
-        Y: 179999900
     - - X: 860000100
         Y: 179999959
       - X: 860000100
@@ -11360,6 +11344,22 @@ CompositeCollider2D:
       - X: 329999959
         Y: 179999900
       - X: 350000041
+        Y: 179999900
+    - - X: 690000100
+        Y: 179999959
+      - X: 690000100
+        Y: 200000041
+      - X: 690000041
+        Y: 200000100
+      - X: 669999959
+        Y: 200000100
+      - X: 669999900
+        Y: 200000041
+      - X: 669999900
+        Y: 179999959
+      - X: 669999959
+        Y: 179999900
+      - X: 690000041
         Y: 179999900
     - - X: 90000100
         Y: 169999959
@@ -98470,6 +98470,14 @@ PrefabInstance:
     - target: {fileID: 7913429727340038883, guid: 973b702be504ccd49babbddc94eba221, type: 3}
       propertyPath: m_GravityScale
       value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7913429727340038884, guid: 973b702be504ccd49babbddc94eba221, type: 3}
+      propertyPath: m_Size.x
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7913429727340038884, guid: 973b702be504ccd49babbddc94eba221, type: 3}
+      propertyPath: m_Size.y
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 7913429727340038884, guid: 973b702be504ccd49babbddc94eba221, type: 3}
       propertyPath: m_Sprite
