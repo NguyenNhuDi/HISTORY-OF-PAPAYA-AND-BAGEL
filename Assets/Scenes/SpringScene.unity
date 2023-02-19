@@ -3307,7 +3307,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 40
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3377,7 +3377,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 40
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3417,7 +3417,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 40
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3457,7 +3457,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 40
-      m_TileSpriteIndex: 2
+      m_TileSpriteIndex: 1
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3637,7 +3637,7 @@ Tilemap:
     second:
       serializedVersion: 2
       m_TileIndex: 42
-      m_TileSpriteIndex: 1
+      m_TileSpriteIndex: 2
       m_TileMatrixIndex: 0
       m_TileColorIndex: 0
       m_TileObjectToInstantiateIndex: 65535
@@ -3734,10 +3734,10 @@ Tilemap:
   m_TileSpriteArray:
   - m_RefCount: 130
     m_Data: {fileID: 8628331993706556511, guid: 447d475aa24782744b974e0fee2f2e2e, type: 3}
-  - m_RefCount: 1
-    m_Data: {fileID: -2532538319784431297, guid: 447d475aa24782744b974e0fee2f2e2e, type: 3}
   - m_RefCount: 4
     m_Data: {fileID: 8628331993706556511, guid: 4b6a96ed1ab37654f95e9c113d997a6a, type: 3}
+  - m_RefCount: 1
+    m_Data: {fileID: -2532538319784431297, guid: 447d475aa24782744b974e0fee2f2e2e, type: 3}
   m_TileMatrixArray:
   - m_RefCount: 339
     m_Data:
@@ -90598,7 +90598,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1547647609}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 86, y: 19.7, z: -10}
+  m_LocalPosition: {x: 3.4, y: -2.7, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -90663,6 +90663,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 598177826754337776, guid: 92bc773b892c46e478c7718f18c73f1e, type: 3}
+    - target: {fileID: 7913429727340038884, guid: 973b702be504ccd49babbddc94eba221, type: 3}
+      propertyPath: m_WasSpriteAssigned
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 7913429727340038885, guid: 973b702be504ccd49babbddc94eba221, type: 3}
       propertyPath: m_RootOrder
       value: 2
