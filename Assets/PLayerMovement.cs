@@ -8,7 +8,7 @@ public class PLayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private BoxCollider2D coll;
 
-    // field to pick
+    // field to pick jumpable ground
     [SerializeField] private LayerMask jumpableGround;
 
     // Start is called before the first frame update
