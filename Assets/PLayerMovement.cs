@@ -16,6 +16,7 @@ public class PLayerMovement : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         coll = GetComponent<BoxCollider2D>();
+
     }
 
     // Update is called once per frame
@@ -23,16 +24,15 @@ public class PLayerMovement : MonoBehaviour
     {
 
         float dirX = Input.GetAxisRaw("Horizontal");
-        if (dirX != 0){
-            rb.velocity = new Vector2(dirX *3, rb.velocity.y);
-        }else{
-            rb.velocity = new Vector2(rb.velocity.x, rb.velocity.y);
-        };
+        rb.velocity = new Vector2(dirX *6, rb.velocity.y);
         
         if (Input.GetButtonDown("Jump") && (IsGrounded() || StickyLeft() || StickyRight())){
-            rb.velocity = new Vector2(rb.velocity.x, 8f);
+            rb.velocity = new Vector2(rb.velocity.x, 16f);
         }
 
+
+        // setXQuad(rb.position.x);
+        // setYQuad(rb.position.y);
 
     }
 
@@ -50,4 +50,7 @@ public class PLayerMovement : MonoBehaviour
     {
         return Physics2D.BoxCast(coll.bounds.center, coll.bounds.size, 0f, Vector2.left, .2f, jumpableGround);
     }
+
+
+
 }
